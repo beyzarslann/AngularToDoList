@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(36, 135, 135);
+}
+
+h1 {
+    font-family: 'Sometype Mono', monospace;
+    font-size: 50px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.input {
+    height: 30px;
+    width: 200px;
+    border: 2px solid rgb(13, 13, 107);
+    margin-right: 12px;
+    
+}
+
+.item {
+    border-bottom: 2px solid rgb(13, 13, 107);
+    margin: 10px;
+    padding: 10px;
+    width: 20vh;
+    
+}
+
+.silinen {
+    font-weight: bold;
+    align-items: center;
+    padding: 7px;
+    margin-right: 50px;
+}
